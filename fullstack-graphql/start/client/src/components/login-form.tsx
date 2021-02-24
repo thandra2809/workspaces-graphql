@@ -9,7 +9,7 @@ import { ReactComponent as Curve } from '../assets/curve.svg';
 import { ReactComponent as Rocket } from '../assets/rocket.svg';
 import { colors, unit } from '../styles';
 
-interface LoginFormProps {
+export interface LoginFormProps {
   login: (a: { variables: any }) => void;
 }
 
